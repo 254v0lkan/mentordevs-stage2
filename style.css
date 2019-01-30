@@ -107,3 +107,34 @@ clear: both;
 	transform: skewY(-5deg);
 	margin:0 auto 40px auto;
 }
+.input-group{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.input-group.half-class{
+	width: 49%;
+	float: left;
+}
+.input-group.clear{
+	padding-top: 20px;
+}
+input, textarea{
+	min-height: 40px;
+}
+input{
+	border:none;
+	background:#f0f0f0;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+textarea{
+	width: 100%;
+	height: 50px;
+	border:none;
+	border-bottom: solid 1px #f0f0f0;
+}
+.stand-alone{
+	max-width: 840px;
+	margin: 40px auto ;
+	padding:40px;
+}
