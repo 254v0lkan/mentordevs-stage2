@@ -1,0 +1,109 @@
+* {
+   box-sizing: border-box;
+   }
+   body{
+   	line-height: 1.5;
+   	background-color:  #fef89a;
+   	font-family: sans-serif;
+   	font-size: 16px;
+   	color: #333;
+   }
+header{
+	background-color: #333;
+}
+nav{
+	color: #fff;
+}
+nav a{
+	margin:0 20px;
+}
+.card{
+	padding: 20px;
+	max-width: 840px;
+	margin: auto;
+	background-color: #fff;
+	box-shadow: 0 5px 5px #909090;
+	border-radius: 10px;
+}
+.cover-and-quote{
+	font-size: 2.25rem;
+}
+.quote-card{
+	margin: 20px auto;
+	background-color: transparent;
+	box-shadow: none;
+}
+.intro-text{
+	padding-bottom: 40px;
+}
+.introduction{
+	background-color: #fef89a;
+	width: 100%;
+	padding: 20px 0 40px 0;
+	transform: skewY(5deg);
+}
+.intro-card{
+	transform: skewY(-5deg);
+	margin: 40px auto;
+}
+.name-card p{
+	color:#909090;
+}
+.profile{
+	margin:-120px 10px 0 0;
+	border-radius: 50%;
+}
+img.profile{
+	float: right;
+	width: 150px;
+}
+button{
+	background-color: #45bee1;
+	color: #fff;
+	border:none;
+	min-height: 40px;
+	padding: 15px 40px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px #909090;
+}
+.project{
+background-color: #a9ebef;
+transform: skewY(-5deg);
+width: 100%;
+clear: both;
+}
+.project-card{
+	transform: skewY(5deg);
+	margin-bottom: 40px;
+}
+.single-project-card{
+	width: 48%;
+	float: left;
+	margin-right: 10px;
+	min-height: 460px;
+	box-shadow:none;
+	border:solid 1px #f0f0f0;
+}
+.project-description{
+	padding: 40px;
+	position: absolute;
+	bottom: 0;
+	background: #fff;
+}
+.single-project-card{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.contact-form{
+	background-color: #f5b4fe;
+	width: 100%;
+	padding: 20px 0 40px 0;
+	transform: skewY(5deg);
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+}
+.contact-form-card {
+	transform: skewY(-5deg);
+	margin:0 auto 40px auto;
+}
