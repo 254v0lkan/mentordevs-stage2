@@ -13,12 +13,19 @@ header{
 }
 nav{
 	color: #fff;
+	padding: 20px;
+	margin: 0;
 }
 nav a{
 	margin:0 20px;
+	color:#fdfdfd;
+	text-decoration: none;
+}
+.align-right{
+	float: right;
 }
 .card{
-	padding: 20px;
+	padding: 40px;
 	max-width: 840px;
 	margin: auto;
 	background-color: #fff;
@@ -70,7 +77,9 @@ button{
 background-color: #a9ebef;
 transform: skewY(-5deg);
 width: 100%;
-clear: both;
+}
+.project .clear{
+	clear: both;
 }
 .project-card{
 	transform: skewY(5deg);
@@ -81,8 +90,10 @@ clear: both;
 	float: left;
 	margin-right: 10px;
 	min-height: 460px;
-	box-shadow:none;
+	box-shadow: none;
 	border:solid 1px #f0f0f0;
+	padding: 0;
+	position: relative;
 }
 .project-description{
 	padding: 40px;
